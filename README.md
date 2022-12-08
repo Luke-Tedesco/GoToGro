@@ -78,8 +78,8 @@ TO OPERATE THE WEBSITE
     password varchar(16) not null
     );
     
- 3. Finally, the admin username and password needs to be set, the following will give the site an admin with username: admin and password: admin however it is reccommended to update these details.
+ 3. Finally, the admin username and password needs to be set, the following will give the site an admin with username: admin and password: admin however it is recommended to update these details.
  
     INSERT INTO `admin` (`adminKey`, `username`, `password`) VALUES ('000000', 'admin', 'admin');
- 
- You can then add staff accounts through the admin access of the website
+   
+   You can then add staff accounts through the admin access of the website
