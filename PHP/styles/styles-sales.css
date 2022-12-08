@@ -1,0 +1,26 @@
+/* Sales Page */
+
+.csvHeading h2 {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#leftbar {
+  float: left;
+  width: 85%;
+}
+
+#rightbar {
+  float: left;
+  width: 15%;
+}
+
+h2 {
+  font-size: calc(1.325rem + .5vw) !important;
+}
+
+[type="submit"] {
+  margin: 5px;
+  width: 95%;
+}
